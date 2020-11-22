@@ -1,0 +1,190 @@
+/* NavBar */
+.sitename{
+    font-size: 30px;
+    font-weight: serif;
+    color:rgba(10, 10, 192, 0.774);
+}
+.navigation{
+    background-color: rgb(185, 185, 230);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.btnsearch{
+    color:rgba(0, 0, 0, 0.445);
+    border-color:rgba(0, 0, 0, 0.445); 
+}
+.btnsearch:hover{
+    color:rgb(57, 57, 168);
+}
+/* Filter */
+.search{
+    margin:40px auto;
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-image: url("https://pbs.twimg.com/media/DhFogTsX4AEHKjO.jpg");
+    height: 150px;
+    width:90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.ratingalign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:30%;
+    height:50px;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid rgba(0, 0, 0, 0.541);
+}
+.searchingform{
+width:79%;
+height:45px;
+border:none;
+padding:10px;
+}
+.titlelabel{
+    height:50px;
+    width:20%;
+    background-color:rgba(201, 194, 194, 0.473);
+    margin:0;
+    padding-top: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0, 0, 0, 0.541);
+}
+.searchingalign{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width:600px;
+    border:1px solid rgba(0, 0, 0, 0.541);
+}
+.ratelabel{
+width:40%;
+height: 50px;
+background-color: rgba(201, 194, 194, 0.473);
+margin:0;
+padding:0;
+border-radius:10px;
+padding-top: 10px;
+border:1px solid rgba(0, 0, 0, 0.541);
+}
+.stars{
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+/* MovieCard */
+.Card{
+    width:1200px;
+    height:530px;
+    border:1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+    margin:30px auto;
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.Card:hover{
+    background-color: white;
+    box-shadow: 0 5px 10px 0 #636262;
+}
+.Carddesc{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+.title{
+    color:rgba(247, 0, 255, 0.527);
+}
+.text{
+    font-size: 20px;
+    font-weight: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+    width:400px;
+    text-align: center;
+}
+.poster{
+    width:500px;
+    height:500px;
+}
+.btnmovie{
+    margin:10px auto;
+    width:200px;
+}
+.rating{
+    margin-left:120px;
+}
+/* signin */
+
+.signin{
+height: 300px;
+border: 1px solid rgba(0, 0, 0, 0.233);
+background-color: rgba(90, 90, 90, 0.589);
+margin:auto;
+padding:20px;
+margin-bottom: 40px;
+}
+
+/* Modal */
+
+.modal2{
+     margin:30px; 
+} 
+.modal3{
+     margin-top: 10%;
+}
+.formdescription{
+    margin-left:22px;
+}
+.inputdesc{
+    margin-right: 22px;
+}
+.formposter{
+    margin-left:17px;
+}
+.inputposter{
+    margin-right:18px;
+}
+.formrate{
+    margin-right: 0px;
+}
+.select{
+    width:180px;
+}
+.position{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto; 
+    width:500px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.posteradd{
+    display: flex; 
+    justify-content: space-around;
+}
+/* footer */
+.footer{
+    background-color: rgb(185, 185, 230);
+    height:40px;
+    margin:auto;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
+.footer p{
+    font-size: 10px;
+    padding:10px;
+}
