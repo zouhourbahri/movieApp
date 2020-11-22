@@ -55,7 +55,7 @@ function App() {
   const modification = (modif) => modif ? setListOfMovies([...ListOfMovies,  {
     title:modif.title,
     description:modif.description,
-    posterUrl: modif.posterURl,
+    posterUrl:modif.posterURl,
     rate: {
       size: 30,
       count:5,

@@ -6,9 +6,7 @@ const MovieList = ({ ListOfMovies, handleRemove, handlemovie, search, ratefiltri
     return (
         <div>
             <div id="ListOfMovies">
-                    {search==='' && ratefiltring===0 ?
-                    ListOfMovies.map(movie => <MovieCard key={movie.id} movie={movie} handleRemove={handleRemove} handlemovie={handlemovie} />)
-                    : ListOfMovies.filter(movie => (movie.title.toLowerCase().includes(search.toLowerCase()) && movie.rate.value===ratefiltring)).map(movie => <MovieCard key={movie.id} movie={movie} handleRemove={handleRemove} handlemovie={handlemovie} />)}
+                    {ListOfMovies.filter(movie => (movie.title.toLowerCase().includes(search.toLowerCase()) && movie.rate.value>=ratefiltring)).map(movie => <MovieCard key={movie.id} movie={movie} handleRemove={handleRemove} handlemovie={handlemovie} />)}
             </div>
         </div>
     )
