@@ -1,25 +1,21 @@
+.App{
+    margin:0px;
+}
 /* NavBar */
 .sitename{
     font-size: 30px;
     font-weight: serif;
-    color:rgba(10, 10, 192, 0.774);
+    color:rgba(204, 164, 99, 0.753);
 }
 .navigation{
-    background-color: rgb(185, 185, 230);
+    background-color: rgb(93, 15, 15);
     position: sticky;
     top: 0;
     z-index: 1;
 }
-.btnsearch{
-    color:rgba(0, 0, 0, 0.445);
-    border-color:rgba(0, 0, 0, 0.445); 
-}
-.btnsearch:hover{
-    color:rgb(57, 57, 168);
-}
 /* Filter */
 .search{
-    margin:40px auto;
+    margin:0px auto;
     display: flex;
     justify-content: space-between;
     padding:20px;
@@ -79,22 +75,46 @@ border:1px solid rgba(0, 0, 0, 0.541);
 .stars{
     margin-right: 10px;
     margin-bottom: 5px;
+    border: 0;
+}
+/* Carousel */
+.carousel{
+    height:300px;
+    width:200px;
+    padding:0px 0px 50px 0px;
+    margin:20px auto;
+    cursor: pointer;
+    background-color: white;
+}
+.carouselsize{
+    height:300px;
+    width: 1349px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(49, 8, 8);
+}
+.slide{
+display: flex;
+justify-content: space-around;
+
 }
 /* MovieCard */
 .Card{
-    width:1200px;
-    height:530px;
+    width:280px;
+    height:600px;
     border:1px solid rgba(0, 0, 0, 0.397);
     border-radius: 10px;
-    margin:30px auto;
+    margin:20px auto;
     padding:15px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     cursor: pointer;
+    background-color: white;
 }
 .Card:hover{
     background-color: white;
-    box-shadow: 0 5px 10px 0 #636262;
+    box-shadow: 0 15px 15px 0 #d8bb18;
 }
 .Carddesc{
     display: flex;
@@ -103,39 +123,49 @@ border:1px solid rgba(0, 0, 0, 0.541);
 }
 .title{
     color:rgba(247, 0, 255, 0.527);
+    font-size: 20px;
+    font-weight: bold;
 }
 .text{
-    font-size: 20px;
+    font-size: 12px;
     font-weight: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
-    width:400px;
+    width:250px;
     text-align: center;
 }
 .poster{
-    width:500px;
-    height:500px;
+    width:250px;
+    height:320px;
 }
 .btnmovie{
-    margin:10px auto;
-    width:200px;
+    margin:5px auto;
+    width:100px;
+}
+.btns{
+    display: flex;
 }
 .rating{
-    margin-left:120px;
+    margin:auto;
+}
+/* Movie List */
+#ListOfMovies{
+display: flex;
+flex-wrap: wrap;
+background-color: black;
 }
 /* signin */
 
 .signin{
 height: 300px;
 border: 1px solid rgba(0, 0, 0, 0.233);
-background-color: rgba(90, 90, 90, 0.589);
-margin:auto;
+background-color: rgba(90, 90, 90, 0.514);
 padding:20px;
-margin-bottom: 40px;
 }
 
 /* Modal */
 
 .modal2{
-     margin:30px; 
+     padding:30px; 
+     background-color: black;
 } 
 .modal3{
      margin-top: 10%;
@@ -174,17 +204,18 @@ margin-bottom: 40px;
 }
 /* footer */
 .footer{
-    background-color: rgb(185, 185, 230);
+    background-color: rgb(93, 15, 15);
     height:40px;
     margin:auto;
     padding:0;
     display: flex;
     justify-content: space-between;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width:100%;
 }
 .footer p{
     font-size: 10px;
     padding:10px;
+    color:rgba(204, 164, 99, 0.753);
 }
